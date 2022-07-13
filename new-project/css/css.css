@@ -1,0 +1,593 @@
+            /* استایل طبیعی */
+p{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family:"Dosis";
+    position: absolute;  
+}
+h1{
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    font-family:"Dosis";
+    position: absolute;
+}
+h2{
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    font-family:"Dosis";
+    position: absolute;
+}
+h3{
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    font-family:"Dosis";
+    position: absolute;
+}
+h4{
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    font-family:"Dosis";
+    position: absolute;
+}
+h5{
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    font-family:"Dosis";
+    position: absolute;
+}
+h6{
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    font-family:"Dosis";
+    position: absolute;
+}
+a{
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    font-family:"Dosis";
+    position: absolute; 
+}
+body{
+    background-color: #fff;
+    position: relative;
+}
+                /* پایان استایل طبیعی */
+.menu{
+    position: relative;
+}
+.text-one-menu{
+    font-family: "Roboto";
+    left: 0px;
+    left: 740px;
+    font-size: 19px;
+    color: #03cafc;
+    position: absolute;
+}
+.text-one-menu:hover{
+    color: #03cafc;
+    transition: all 0.6s;
+}
+.text-two-menu:hover{
+    color: #03cafc;
+    transition: all 0.6s;
+}
+.text-tree-menu:hover{
+    color: #03cafc;
+    transition: all 0.6s;
+}
+.text-foor-menu:hover{
+    color: #03cafc;
+    transition: all 0.6s;
+}
+.text-five-menu:hover{
+    color: #03cafc;
+    transition: all 0.6s;
+}
+.text-six-menu:hover{
+    color: #03cafc;
+    transition: all 0.6s;
+}
+.text-seven-menu:hover{
+    color: #03cafc;
+    transition: all 0.6s;
+}
+.text-two-menu{
+    font-family: "Roboto";
+    left: 0px;
+    left: 830px;
+    font-size: 19px;
+    position: absolute;
+}
+.text-tree-menu{
+    font-family: "Roboto";
+    left: 0px;
+    left: 920px;
+    font-size: 19px;
+    position: absolute;
+}
+.text-foor-menu{
+    font-family: "Roboto";
+    left: 0px;
+    left: 1035px;
+    font-size: 19px;
+    position: absolute;
+}
+.text-five-menu{
+    font-family: "Roboto";
+    left: 0px;
+    left: 1120px;
+    font-size: 19px;
+    position: absolute;
+}
+.text-six-menu{
+    font-family: "Roboto";
+    left: 0px;
+    top: -8px;
+    color: #fff;
+    border-radius: 24px;
+    left: 1260px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #03cafc;
+    font-size: 19px;
+    position: absolute;
+}
+.text-six-menu:hover{
+    background-color: #000;
+    transition: all 0.5s;
+}
+.text-seven-menu{
+    font-family: "Roboto";
+    right: 0px;
+    font-size: 19px;
+    position: absolute;
+    right: 80px;
+}
+.img-one-logo-menu{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.one-text-center-web{
+    color: #03cafc;
+    font-family:"Roboto";
+    font-size: 60px;
+    position: absolute;
+    left: 700px;
+    top: 130px;
+}
+.two-text-center-web{
+    font-family:"Roboto";
+    font-size: 60px;
+    position: absolute;
+    left: 540px;
+    top: 200px;
+}
+.img-two-menu{
+    position: absolute;
+    width: 800px;
+    top: 360px;
+    left: 400px;
+}
+.one-animation{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    top: 100px;
+    border-radius: 50%;
+    animation-name: one-animation;
+    animation-duration: 1.8s;
+    transition: all 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    top: 230px;
+    left: 400px;
+}
+@keyframes one-animation{
+    0%{
+        left: 440px;
+        top: 280px;
+        width: 20px;
+        height: 20px;
+    }
+    100%{
+        width: 300px;
+        height: 300px;
+        top: 140px;
+        left: 1100px;
+    }
+}
+.two-animation{
+    animation-duration: 1.8s;
+    transition: all 3s;
+    position: absolute;
+    right: 0px;
+    right: -66px;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: two-animation;
+}
+@keyframes two-animation{
+    0%{
+        top: 0px;
+        left: 420px;
+        position: absolute;
+    }
+    100%{
+        left: 423px;
+    }
+}
+.center-web{
+    width: auto;
+    height: 900px;
+}
+.shop-text{
+    font-size: 22px;
+    position: absolute;
+    left: 740px;
+    top: 0px;
+    border: 1px solid black;
+    padding: 21px 69px;
+    top: 670px;
+    border-radius: 5px;
+}
+.shop-text:hover{
+    background-color: #03cafc;
+    color: #fff;
+    transition: all 0.4s;
+}
+.about{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.one-img-right-about{
+    right: 0px;
+    top: 190px;
+    right: 250px;
+    position: absolute;
+}
+.text-box{
+    position: relative;
+    position: absolute;
+    border: 1px solid black;
+    width: 600px;
+    height: 380px;
+    top: 204px;
+    left: 640px;
+    background-color: #fff;    
+}
+.text-box h1{
+    color: #2a2a2c;
+    font-family: "roboto";
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.text-box p{
+    font-family: "Didact Gothic";
+    font-size: 22px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+.about-img{
+    width: 450px;
+    left: 0px;
+    top: 150px;
+    left: 80px;
+    position: absolute;
+}
+.text-read-more{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 19px;
+    top: 700px;
+    border: 1px solid black;
+    left: 600px;
+    padding: 20px 60px;
+    border-radius: 33px;
+}
+.text-read-more:hover{
+    background-color: #03cafc;
+    color: #fff;
+    transition: all 0.8s;
+}
+.list-frosh-glass{
+    position: relative;
+    border-top: 1px solid black;
+    height: 1200px;
+    width: 100%;
+    background-color: #fff;
+}
+.list-frosh-glass h1{
+    position: absolute;
+    left: 630px;
+    top: 80px;
+    font-family: "roboto";
+    font-size: 44px;
+}
+.list-frosh-glass p{
+    position: absolute;
+    font-size: 21px;
+    left: 370px;
+    top: 140px;
+}
+.one-box-forosh{
+    position: relative;
+    position: absolute;
+    border: 1px solid black;
+    height: 340px;
+    width: 290px;
+    left: 20px;
+    top: 290px;
+}
+.two-box-forosh{
+    position: relative;
+    position: absolute;
+    border: 1px solid black;
+    height: 340px;
+    width: 290px;
+    left: 400px;
+    top: 290px;
+}
+.tree-box-forosh{
+    position: relative;
+    position: absolute;
+    border: 1px solid black;
+    height: 340px;
+    width: 290px;
+    left: 780px;
+    top: 290px;
+}
+.foor-box-forosh{
+    position: relative;
+    position: absolute;
+    border: 1px solid black;
+    height: 340px;
+    width: 290px;
+    left: 1160px;
+    top: 290px;
+}
+.five-box-forosh{
+    position: relative;
+    position: absolute;
+    border: 1px solid black;
+    height: 340px;
+    width: 290px;
+    left: 20px;
+    top: 660px;
+}
+.six-box-forosh{
+    position: relative;
+    position: absolute;
+    border: 1px solid black;
+    height: 340px;
+    width: 290px;
+    left: 400px;
+    top: 660px;
+}
+.seven-box-forosh{
+    position: relative;
+    position: absolute;
+    border: 1px solid black;
+    height: 340px;
+    width: 290px;
+    left: 780px;
+    top: 660px;
+}
+.eight-box-forosh{
+    position: relative;
+    position: absolute;
+    border: 1px solid black;
+    height: 340px;
+    width: 290px;
+    left: 1160px;
+    top: 660px;
+}
+.img-box-eight , .img-box-seven , .img-box-sex , .img-box-five , .img-box-foor , .img-box-tree , .img-box-two , .img-box-one{
+    position: absolute;
+    width: 200px;
+    left: 50px;
+    top: 80px;
+}
+.aa{
+    font-size: 20px;
+    left: 120px;
+    top: 190px;
+}
+.bb{
+    margin-left: -275px;
+    margin-top: 100px;
+}
+.text-two-read-more{
+    position: absolute;
+    font-family: "roboto";
+    text-decoration: none;
+    font-size: 22px;
+    top: 1100px;
+    left: 630px;
+    border: 2px solid black;
+    padding: 23px 63px;
+    border-radius: 43px;
+}
+.text-two-read-more:hover{
+    background-color: #03cafc;
+    color: #fff;
+    transition: all 0.8s;
+}
+.best-glass{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.right-best{
+    position: relative;
+    position: absolute;
+    background-color: #000;
+    width: 720px;
+    right: 0px;
+    right: 80px;
+    top: 60px;
+    height: 510px;
+}
+.text-right-best{
+    position: absolute;
+    color: #fff;
+    font-size: 33px;
+    font-family: "roboto";
+    top: 40px;
+    left: 30px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+.right-best p{
+    color: #fff;
+    font-size: 19px;
+    font-family: "Didact Gothic";
+    top: 130px;
+    left: 30px;
+}
+.ll{
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Didact Gothic";
+    top: 350px;
+    left: 100px;
+    padding: 23px 55px;
+    border: #fff 1px solid;
+    border-radius: 37px;
+}
+.ll:hover{
+    background-color: #03cafc;
+    transition: all 1.5s;
+}
+.glass6{
+    width: 600px;
+    top: 200px;
+    position: absolute;
+}
+.SandyMark{
+    position: relative;
+    height: 500px;
+    width: 100%;   
+}
+.SandyMark h1{
+    position: absolute;
+    font-family: "roboto";
+    font-size: 39px;
+    left: 550px;
+}
+.SandyMark p{
+    font-size: 21px;
+    left: 300px;
+    top: 80px;
+    font-family: "Didact Gothic";
+}
+.about-sandy{
+    width: 900px;
+    height: 230px;
+    position: relative;
+    position: absolute;
+    border: 1px solid black;
+    left: 270px;
+    top: 190px;
+}
+.our{
+    width: 180px;
+    position: absolute;
+    top: 223px;
+    left: 200px;
+}
+.about-sandy h2{
+    position: absolute;
+    left: 140px;
+    font-size: 32px;
+    font-family: "roboto";
+    color: #2a2a2c;
+}
+.about-sandy p{
+    position: absolute;
+    left: 140px;
+    font-size: 18px;
+    top: 0px;
+    top: 70px;
+    font-family: "roboto";
+    color: #2a2a2c;
+}
+.Contact-Us{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-color: lightgray;
+}
+.inputs{
+    width: 520px;
+    height: 580px;
+    border-radius: 21px;
+    position: absolute;
+    position: relative;
+    left: 480px;
+    top: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #fff;
+}
+.one-input{
+    position: absolute;
+    width: 430px;
+    height: 40px;
+    left: 30px;
+    top: 30px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgb(29, 29, 29);
+}
+::-webkit-input-placeholder.one-input{
+    color: red;
+    font-size: 16px;
+}
+.two-input{
+    position: absolute;
+    width: 430px;
+    height: 40px;
+    left: 30px;
+    top: 130px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgb(29, 29, 29);
+}
+.tree-input{
+    position: absolute;
+    width: 430px;
+    height: 40px;
+    left: 30px;
+    top: 230px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgb(29, 29, 29);
+}
+.foor-input{
+    position: absolute;
+    width: 430px;
+    height: 40px;
+    left: 30px;
+    top: 330px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgb(29, 29, 29);
+}
+.inputs a{
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "roboto";
+    top: 450px;
+    left: 36px;
+    background-color: #03cafc;
+    color: #fff;
+    padding: 10px 200px;
+    border-radius: 33px;
+}
